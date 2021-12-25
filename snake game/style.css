@@ -1,0 +1,54 @@
+body{
+  text-align: center;
+}
+.grid {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 5px solid red;
+  margin:  0 auto;
+  background-color: black;
+}
+
+.grid div {
+  width: 10px;
+  height: 10px;
+}
+
+.snake {
+  background-color: white;
+}
+
+.apple {
+  background-color: white;
+  border-radius: 10px;
+}
+.start {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 auto; 
+  box-shadow: 10px 10px 5px grey;
+}
+#Score-btn{
+  background-color: yellow;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 auto; 
+  box-shadow: 10px 10px 5px grey;
+}
+.headd{
+  background-color: red;
+  border-radius: 0px 10px 10px 0px;
+}
